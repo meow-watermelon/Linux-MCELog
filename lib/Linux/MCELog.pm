@@ -7,7 +7,7 @@ our @EXPORT_OK = qw(ping dump_all);
 our %EXPORT_TAGS = ( all => \@EXPORT_OK );
 use base qw(Exporter);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use IO::Socket::UNIX;
 
